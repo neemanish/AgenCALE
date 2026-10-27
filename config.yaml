@@ -1,0 +1,30 @@
+# AgenCALE benchmark configuration (all parameters used in the paper)
+seeds: [11, 23, 47]
+population:
+  n_people: 30000            # records 1-10,000 members, 10,001-20,000 non-members, rest for release 2
+  n_zip: 60                  # 12 three-digit areas x 5
+  n_occupations: 20
+  n_conditions: 8
+  medication_cue_rate: 0.6   # share of notes naming a condition-specific medication
+  landmark_cue_rate: 0.5     # share of notes naming a ZIP-specific landmark
+  auxiliary_fraction: 0.4    # public voter-roll style file
+release2: {members: 5000, new_people: 5000}
+encodings:
+  k_anonymity: 5
+  ldp_epsilons: [1.0, 4.0]
+  hmac: sha256
+  fpe: ff3-1                 # 5-digit ZIP below FF3-1 minimum domain, redacted
+cale:
+  delta: 0.05                # stopping threshold for internal adversary advantage
+  m: 8                       # tokens scrubbed per leaking attribute per round
+  max_rounds: 40
+  calibration_notes: 5000    # disjoint non-member notes used by A_int
+attacks:
+  text_attack_train_fraction: 0.2   # 2,000 of 10,000 encoded member notes
+  rf_trees: 150
+gate:
+  max_threat: 0.05
+  max_epgi: 0.10
+  min_utility: 0.80
+scaling:
+  calibration_sizes: [2500, 5000, 10000, 20000]

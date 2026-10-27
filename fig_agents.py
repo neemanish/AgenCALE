@@ -1,0 +1,28 @@
+import sys, matplotlib; matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
+plt.rcParams.update({"font.family": "serif"})
+fig, ax = plt.subplots(figsize=(3.45, 2.75), dpi=300); ax.set_xlim(0, 100); ax.set_ylim(0, 86); ax.axis("off")
+def box(x, y, w, h, t, fc, bold=False, fs=4.3):
+    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.5,rounding_size=1.4", fc=fc, ec="black", lw=0.55))
+    ax.text(x + w / 2, y + h / 2, t, ha="center", va="center", fontsize=fs, fontweight="bold" if bold else "normal", linespacing=1.2)
+def arr(x1, y1, x2, y2, ls="-", c="black"):
+    ax.add_patch(FancyArrowPatch((x1, y1), (x2, y2), arrowstyle="-|>", mutation_scale=5.5, lw=0.55, color=c, linestyle=ls))
+box(1, 72, 30, 12, "Source records\n(structured fields\n+ free-text notes)", "white")
+box(36, 72, 63, 12, "Threat agent: identifiers, quasi-identifiers,\nprotected attributes, text fields, release history", "#eeeeee")
+box(1, 46, 98, 20, "", "#dde6f0")
+ax.text(50, 63.2, "Encoding agent: plan on escalation ladder (redaction, k=5, CALE, CALE-S)", ha="center", va="center", fontsize=4.3, fontweight="bold")
+box(3, 48.5, 29, 11, "Stage 1: per-release\nsalted HMAC pseudonyms", "white", fs=4.0)
+box(35.5, 48.5, 29, 11, "Stage 2: generalization\nk=5 (CALE) or synthetic\ndata (CALE-S)", "white", fs=4.0)
+box(68, 48.5, 29, 11, "Stage 3: scrubbing with\ninternal adversary A_int\non calibration notes", "#f6dede", fs=4.0)
+box(1, 25, 47, 15, "Adversary agent: attack suite\nA1 linkage, A2 membership,\nA3 cross-release, A4 text inference", "#f6dede")
+box(52, 25, 47, 15, "Utility agent: structured and\ntext utility retention U", "#eeeeee")
+box(18, 3, 64, 15, "Governance agent: EPGI and privacy gate\n(max threat <= 0.05, EPGI <= 0.10, U >= 0.80);\nevidence log with SHA-256 digest", "#dde6f0", bold=False)
+arr(31, 78, 36, 78); arr(67, 72, 67, 66.5)
+arr(32, 54, 35.5, 54); arr(64.5, 54, 68, 54)
+arr(24, 46, 24, 40.5); arr(76, 46, 76, 40.5)
+arr(24, 25, 40, 18.5); arr(76, 25, 60, 18.5)
+arr(82, 10.5, 96, 10.5); ax.text(89, 13, "pass:\nrelease", ha="center", fontsize=3.9)
+arr(18, 10.5, 2.5, 10.5, ls="--", c="#b2182b"); arr(1.6, 10.5, 1.6, 46, ls="--", c="#b2182b")
+ax.text(3.5, 13.5, "fail:\nescalate", ha="left", fontsize=3.9, color="#b2182b")
+fig.savefig(f"{sys.argv[1] if len(sys.argv) > 1 else 'results'}/fig_agents.png", bbox_inches="tight", pad_inches=0.02); print("ok")
