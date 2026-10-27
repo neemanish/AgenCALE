@@ -39,6 +39,13 @@ Runtime is about 20 minutes on a 2-core Intel Xeon @ 2.80 GHz with 8 GB RAM (Pyt
 Seeds are 11, 23 and 47 (`config.yaml`). Every random draw is seeded, so results are deterministic for a
 given library version; timing values depend on hardware.
 
+## Results and transparency
+
+* `results/` contains the exact outputs reported in the paper, produced by `./run_all.sh results`.
+* `TESTING.md` explains how results were produced, how they were verified, the key numbers, and a
+  correction made during peer review.
+* `AI_DISCLOSURE.md` states how AI tools were used in this research.
+
 ## Notes on the design
 
 * The internal adversary used for scrubbing (A_int) learns only from 5,000 calibration notes of

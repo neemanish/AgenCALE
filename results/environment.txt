@@ -1,0 +1,6 @@
+CPU(s):                                  2
+Model name:                              Intel(R) Xeon(R) Processor @ 2.80GHz
+               total        used        free      shared  buff/cache   available
+Mem:               7           0           7           0           0           7
+3.13.16 sklearn 1.9.1 numpy 2.5.3 pandas 3.0.5 scipy 1.18.1
+Version: 1.0.3

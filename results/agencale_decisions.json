@@ -1,0 +1,761 @@
+{
+ "11": {
+  "released": "CALE-S (proposed)",
+  "ladder": [
+   [
+    "Redaction",
+    false,
+    0.563,
+    {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    }
+   ],
+   [
+    "Generalization (k=5)",
+    false,
+    0.251,
+    {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    }
+   ],
+   [
+    "CALE (proposed)",
+    false,
+    0.133,
+    {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    }
+   ],
+   [
+    "CALE-S (proposed)",
+    true,
+    0.058,
+    {
+     "max_threat": true,
+     "epgi": true,
+     "utility": true
+    }
+   ]
+  ],
+  "gate": {
+   "Raw (no encoding)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.7934838347047192,
+    "max_threat": 1.0
+   },
+   "Redaction": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.5627188665942349,
+    "max_threat": 0.9762
+   },
+   "Partial masking": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.6921023896060704,
+    "max_threat": 1.0
+   },
+   "Tokenization (vault)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.7338359176495624,
+    "max_threat": 1.0
+   },
+   "Keyed hashing (HMAC)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.7337858159808748,
+    "max_threat": 1.0
+   },
+   "FPE (FF3-1)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.6205874896977658,
+    "max_threat": 1.0
+   },
+   "Generalization (k=5)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.2512191566844836,
+    "max_threat": 0.8993883792048929
+   },
+   "Local DP (eps=1)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": false
+    },
+    "epgi": 0.32573941525968775,
+    "max_threat": 0.5918960244648319
+   },
+   "Local DP (eps=4)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.14938425085655438,
+    "max_threat": 0.5918960244648319
+   },
+   "Synthetic data (BN)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.13094854568437497,
+    "max_threat": 0.5918960244648319
+   },
+   "CALE (proposed)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.1327575187179021,
+    "max_threat": 0.3846510103710039
+   },
+   "CALE-S (proposed)": {
+    "passed": true,
+    "checks": {
+     "max_threat": true,
+     "epgi": true,
+     "utility": true
+    },
+    "epgi": 0.05777103148466256,
+    "max_threat": 0.007696693272519962
+   }
+  },
+  "evidence_example": {
+   "plan": "CALE-S (proposed)",
+   "residual_risk": 0.0012827822120866602,
+   "per_threat": {
+    "reid": 0.0,
+    "attr_disc": 0.0,
+    "linkability": 0.0,
+    "text_dx_adv": 0.0,
+    "text_loc_adv": 0.007696693272519962,
+    "mia_adv": 0.0
+   },
+   "utility": {
+    "u_struct": 0.8277261883398062,
+    "u_text": 0.9558511780213363,
+    "U": 0.8917886831805713
+   },
+   "epgi": 0.05777103148466256,
+   "gate": {
+    "max_threat": 0.05,
+    "max_epgi": 0.1,
+    "min_utility": 0.8
+   },
+   "checks": {
+    "max_threat": true,
+    "epgi": true,
+    "utility": true
+   },
+   "passed": true,
+   "weights": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+   ],
+   "scrub_list": [
+    "albuterol",
+    "amlodipine",
+    "atorvastatin",
+    "banyan",
+    "bay",
+    "calcitriol",
+    "coral",
+    "cypress",
+    "fluoxetine",
+    "fluticasone",
+    "glipizide",
+    "harbor",
+    "lakeview",
+    "library",
+    "lisinopril",
+    "mall",
+    "mangrove",
+    "marina",
+    "meloxicam",
+    "metformin",
+    "naproxen",
+    "oakmont",
+    "park",
+    "pinecrest",
+    "riverside",
+    "rosuvastatin",
+    "salmeterol",
+    "seagrape",
+    "sertraline",
+    "sevelamer",
+    "stadium",
+    "tiotropium"
+   ],
+   "scrub_history": {
+    "hist": [
+     0.5881773399014778,
+     0.29458128078817736,
+     0.0179475379659457
+    ],
+    "round_s": [
+     0.5883593510000082,
+     0.7487917409998772,
+     0.831654823000008
+    ],
+    "apply_s": 0.2976164649999191,
+    "n_cal": 5000
+   },
+   "log_sha256": "b58fe65225a87a1e4535a622a9a4f97fa79e7c9c348f58f315b014540391c3e1"
+  }
+ },
+ "23": {
+  "released": "CALE-S (proposed)",
+  "ladder": [
+   [
+    "Redaction",
+    false,
+    0.571,
+    {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    }
+   ],
+   [
+    "Generalization (k=5)",
+    false,
+    0.26,
+    {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    }
+   ],
+   [
+    "CALE (proposed)",
+    false,
+    0.153,
+    {
+     "max_threat": false,
+     "epgi": false,
+     "utility": false
+    }
+   ],
+   [
+    "CALE-S (proposed)",
+    true,
+    0.069,
+    {
+     "max_threat": true,
+     "epgi": true,
+     "utility": true
+    }
+   ]
+  ],
+  "gate": {
+   "Raw (no encoding)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.7941032833778474,
+    "max_threat": 1.0
+   },
+   "Redaction": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.5706928791749968,
+    "max_threat": 0.9764
+   },
+   "Partial masking": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.690909950074972,
+    "max_threat": 1.0
+   },
+   "Tokenization (vault)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.7406750525079828,
+    "max_threat": 1.0
+   },
+   "Keyed hashing (HMAC)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.740776056689779,
+    "max_threat": 1.0
+   },
+   "FPE (FF3-1)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.6276527207470614,
+    "max_threat": 1.0
+   },
+   "Generalization (k=5)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.2604755092829618,
+    "max_threat": 0.9013513513513514
+   },
+   "Local DP (eps=1)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": false
+    },
+    "epgi": 0.306389460012346,
+    "max_threat": 0.5912912912912912
+   },
+   "Local DP (eps=4)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.15602188497142044,
+    "max_threat": 0.5912912912912912
+   },
+   "Synthetic data (BN)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.1479553972162877,
+    "max_threat": 0.5912912912912912
+   },
+   "CALE (proposed)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": false
+    },
+    "epgi": 0.1533272473865227,
+    "max_threat": 0.39812098398897255
+   },
+   "CALE-S (proposed)": {
+    "passed": true,
+    "checks": {
+     "max_threat": true,
+     "epgi": true,
+     "utility": true
+    },
+    "epgi": 0.06919455495508209,
+    "max_threat": 0.026877363587250146
+   }
+  },
+  "evidence_example": {
+   "plan": "CALE-S (proposed)",
+   "residual_risk": 0.0069388472645416765,
+   "per_threat": {
+    "reid": 0.0,
+    "attr_disc": 0.0,
+    "linkability": 0.0,
+    "text_dx_adv": 0.0,
+    "text_loc_adv": 0.026877363587250146,
+    "mia_adv": 0.014755719999999917
+   },
+   "utility": {
+    "u_struct": 0.8192505772039075,
+    "u_text": 0.9325393598120088,
+    "U": 0.8758949685079581
+   },
+   "epgi": 0.06919455495508209,
+   "gate": {
+    "max_threat": 0.05,
+    "max_epgi": 0.1,
+    "min_utility": 0.8
+   },
+   "checks": {
+    "max_threat": true,
+    "epgi": true,
+    "utility": true
+   },
+   "passed": true,
+   "weights": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+   ],
+   "scrub_list": [
+    "albuterol",
+    "amlodipine",
+    "atorvastatin",
+    "banyan",
+    "calcitriol",
+    "cypress",
+    "fluoxetine",
+    "fluticasone",
+    "glipizide",
+    "grove",
+    "harbor",
+    "lakeview",
+    "library",
+    "lisinopril",
+    "mall",
+    "mangrove",
+    "marina",
+    "meloxicam",
+    "metformin",
+    "naproxen",
+    "oakmont",
+    "palm",
+    "park",
+    "pinecrest",
+    "riverside",
+    "rosuvastatin",
+    "salmeterol",
+    "seagrape",
+    "sertraline",
+    "sevelamer",
+    "stadium",
+    "tiotropium"
+   ],
+   "scrub_history": {
+    "hist": [
+     0.5873170731707317,
+     0.2629268292682927,
+     0.04890604890604891
+    ],
+    "round_s": [
+     0.5810140639998735,
+     0.6996221340000375,
+     0.7215866720000577
+    ],
+    "apply_s": 0.30852010200010227,
+    "n_cal": 5000
+   },
+   "log_sha256": "8bdce9922b8eded554ea3f08d945c8c1c48fb00346c11ba8a4351b7db140bd54"
+  }
+ },
+ "47": {
+  "released": "CALE-S (proposed)",
+  "ladder": [
+   [
+    "Redaction",
+    false,
+    0.564,
+    {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    }
+   ],
+   [
+    "Generalization (k=5)",
+    false,
+    0.261,
+    {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    }
+   ],
+   [
+    "CALE (proposed)",
+    false,
+    0.151,
+    {
+     "max_threat": false,
+     "epgi": false,
+     "utility": false
+    }
+   ],
+   [
+    "CALE-S (proposed)",
+    true,
+    0.051,
+    {
+     "max_threat": true,
+     "epgi": true,
+     "utility": true
+    }
+   ]
+  ],
+  "gate": {
+   "Raw (no encoding)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.8019823085962854,
+    "max_threat": 1.0
+   },
+   "Redaction": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.564121179639846,
+    "max_threat": 0.9754
+   },
+   "Partial masking": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.6881449654547327,
+    "max_threat": 1.0
+   },
+   "Tokenization (vault)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.7380713476210754,
+    "max_threat": 1.0
+   },
+   "Keyed hashing (HMAC)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.7380713476210754,
+    "max_threat": 1.0
+   },
+   "FPE (FF3-1)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.6228512565926002,
+    "max_threat": 1.0
+   },
+   "Generalization (k=5)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.2613970786367066,
+    "max_threat": 0.8991520290732888
+   },
+   "Local DP (eps=1)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": false
+    },
+    "epgi": 0.32088663202746104,
+    "max_threat": 0.5847970926711085
+   },
+   "Local DP (eps=4)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.15306868779498162,
+    "max_threat": 0.5847970926711085
+   },
+   "Synthetic data (BN)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": true
+    },
+    "epgi": 0.13761963947801215,
+    "max_threat": 0.5847970926711085
+   },
+   "CALE (proposed)": {
+    "passed": false,
+    "checks": {
+     "max_threat": false,
+     "epgi": false,
+     "utility": false
+    },
+    "epgi": 0.15067796079832252,
+    "max_threat": 0.37898637674965285
+   },
+   "CALE-S (proposed)": {
+    "passed": true,
+    "checks": {
+     "max_threat": true,
+     "epgi": true,
+     "utility": true
+    },
+    "epgi": 0.051173155856598984,
+    "max_threat": 0.011037030000000003
+   }
+  },
+  "evidence_example": {
+   "plan": "CALE-S (proposed)",
+   "residual_risk": 0.0018395050000000004,
+   "per_threat": {
+    "reid": 0.0,
+    "attr_disc": 0.0,
+    "linkability": 0.0,
+    "text_dx_adv": 0.0,
+    "text_loc_adv": 0.0,
+    "mia_adv": 0.011037030000000003
+   },
+   "utility": {
+    "u_struct": 0.860759833441534,
+    "u_text": 0.9475203868645747,
+    "U": 0.9041401101530544
+   },
+   "epgi": 0.051173155856598984,
+   "gate": {
+    "max_threat": 0.05,
+    "max_epgi": 0.1,
+    "min_utility": 0.8
+   },
+   "checks": {
+    "max_threat": true,
+    "epgi": true,
+    "utility": true
+   },
+   "passed": true,
+   "weights": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+   ],
+   "scrub_list": [
+    "albuterol",
+    "amlodipine",
+    "atorvastatin",
+    "banyan",
+    "calcitriol",
+    "cypress",
+    "fluoxetine",
+    "fluticasone",
+    "glipizide",
+    "grove",
+    "harbor",
+    "lakeview",
+    "library",
+    "lisinopril",
+    "mall",
+    "mangrove",
+    "marina",
+    "meloxicam",
+    "metformin",
+    "naproxen",
+    "oakmont",
+    "palm",
+    "park",
+    "pinecrest",
+    "riverside",
+    "rosuvastatin",
+    "salmeterol",
+    "seagrape",
+    "sertraline",
+    "sevelamer",
+    "stadium",
+    "tiotropium"
+   ],
+   "scrub_history": {
+    "hist": [
+     0.6021558059774621,
+     0.27633512983831454,
+     0
+    ],
+    "round_s": [
+     0.7039339709999695,
+     0.7986198539997531,
+     0.8446997219998593
+    ],
+    "apply_s": 0.2751042560003043,
+    "n_cal": 5000
+   },
+   "log_sha256": "94c6704f7fd5aed0cd088ae7ac591209566512ac029ff38c6df02411b004f44e"
+  }
+ }
+}

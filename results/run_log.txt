@@ -1,0 +1,126 @@
+[seed 11] Raw (no encoding)        auc=0.698 mia=0.879 reid=1.000 adis=0.801 link=1.000 tdx=1.000 tloc=0.750 tutil=0.781 n=10000 (22.0s)
+[seed 11] Redaction                auc=0.698 mia=0.879 reid=0.827 adis=0.726 link=0.976 tdx=0.592 tloc=0.436 tutil=0.773 n=10000 (16.9s)
+[seed 11] Partial masking          auc=0.692 mia=0.871 reid=0.998 adis=0.800 link=1.000 tdx=0.795 tloc=0.570 tutil=0.782 n=10000 (19.6s)
+[seed 11] Tokenization (vault)     auc=0.698 mia=0.879 reid=0.827 adis=0.726 link=1.000 tdx=1.000 tloc=0.769 tutil=0.784 n=10000 (20.3s)
+[seed 11] Keyed hashing (HMAC)     auc=0.698 mia=0.879 reid=0.827 adis=0.726 link=1.000 tdx=1.000 tloc=0.769 tutil=0.784 n=10000 (21.0s)
+[seed 11] FPE (FF3-1)              auc=0.698 mia=0.879 reid=0.827 adis=0.726 link=1.000 tdx=0.869 tloc=0.416 tutil=0.782 n=10000 (24.7s)
+[seed 11] Generalization (k=5)     auc=0.636 mia=0.692 reid=0.000 adis=0.035 link=0.070 tdx=0.899 tloc=0.576 tutil=0.786 n=9353 (17.3s)
+[seed 11] Local DP (eps=1)         auc=0.533 mia=0.502 reid=0.000 adis=0.000 link=0.000 tdx=0.592 tloc=0.436 tutil=0.773 n=10000 (16.9s)
+[seed 11] Local DP (eps=4)         auc=0.660 mia=0.534 reid=0.011 adis=0.005 link=0.005 tdx=0.592 tloc=0.436 tutil=0.773 n=10000 (16.5s)
+[seed 11] Synthetic data (BN)      auc=0.669 mia=0.499 reid=0.000 adis=0.000 link=0.000 tdx=0.592 tloc=0.436 tutil=0.773 n=10000 (16.8s)
+[seed 11] CALE (proposed)          auc=0.636 mia=0.692 reid=0.000 adis=0.035 link=0.070 tdx=0.000 tloc=0.008 tutil=0.769 n=9353 (20.7s)
+[seed 11] CALE-S (proposed)        auc=0.664 mia=0.500 reid=0.000 adis=0.000 link=0.000 tdx=0.000 tloc=0.008 tutil=0.769 n=10000 (20.6s)
+[seed 23] Raw (no encoding)        auc=0.705 mia=0.866 reid=1.000 adis=0.813 link=1.000 tdx=1.000 tloc=0.766 tutil=0.789 n=10000 (20.5s)
+[seed 23] Redaction                auc=0.705 mia=0.866 reid=0.848 adis=0.749 link=0.976 tdx=0.591 tloc=0.455 tutil=0.780 n=10000 (17.1s)
+[seed 23] Partial masking          auc=0.696 mia=0.863 reid=0.998 adis=0.812 link=1.000 tdx=0.790 tloc=0.573 tutil=0.790 n=10000 (18.6s)
+[seed 23] Tokenization (vault)     auc=0.705 mia=0.866 reid=0.848 adis=0.749 link=1.000 tdx=1.000 tloc=0.777 tutil=0.791 n=10000 (19.5s)
+[seed 23] Keyed hashing (HMAC)     auc=0.705 mia=0.866 reid=0.848 adis=0.749 link=1.000 tdx=1.000 tloc=0.777 tutil=0.791 n=10000 (18.8s)
+[seed 23] FPE (FF3-1)              auc=0.705 mia=0.866 reid=0.848 adis=0.749 link=1.000 tdx=0.864 tloc=0.434 tutil=0.788 n=10000 (24.7s)
+[seed 23] Generalization (k=5)     auc=0.632 mia=0.699 reid=0.000 adis=0.020 link=0.069 tdx=0.901 tloc=0.579 tutil=0.794 n=9431 (16.4s)
+[seed 23] Local DP (eps=1)         auc=0.547 mia=0.500 reid=0.000 adis=0.000 link=0.000 tdx=0.591 tloc=0.455 tutil=0.780 n=10000 (16.8s)
+[seed 23] Local DP (eps=4)         auc=0.665 mia=0.544 reid=0.013 adis=0.010 link=0.006 tdx=0.591 tloc=0.455 tutil=0.780 n=10000 (16.3s)
+[seed 23] Synthetic data (BN)      auc=0.664 mia=0.507 reid=0.000 adis=0.000 link=0.000 tdx=0.591 tloc=0.455 tutil=0.780 n=10000 (15.9s)
+[seed 23] CALE (proposed)          auc=0.632 mia=0.699 reid=0.000 adis=0.020 link=0.069 tdx=0.000 tloc=0.027 tutil=0.770 n=9431 (18.6s)
+[seed 23] CALE-S (proposed)        auc=0.668 mia=0.507 reid=0.000 adis=0.000 link=0.000 tdx=0.000 tloc=0.027 tutil=0.770 n=10000 (18.3s)
+[seed 47] Raw (no encoding)        auc=0.697 mia=0.879 reid=1.000 adis=0.806 link=1.000 tdx=1.000 tloc=0.777 tutil=0.787 n=10000 (20.4s)
+[seed 47] Redaction                auc=0.697 mia=0.879 reid=0.823 adis=0.727 link=0.975 tdx=0.585 tloc=0.454 tutil=0.779 n=10000 (17.2s)
+[seed 47] Partial masking          auc=0.687 mia=0.867 reid=0.996 adis=0.805 link=1.000 tdx=0.788 tloc=0.562 tutil=0.785 n=10000 (18.8s)
+[seed 47] Tokenization (vault)     auc=0.697 mia=0.879 reid=0.823 adis=0.727 link=1.000 tdx=1.000 tloc=0.789 tutil=0.789 n=10000 (18.9s)
+[seed 47] Keyed hashing (HMAC)     auc=0.697 mia=0.879 reid=0.823 adis=0.727 link=1.000 tdx=1.000 tloc=0.789 tutil=0.789 n=10000 (19.4s)
+[seed 47] FPE (FF3-1)              auc=0.697 mia=0.879 reid=0.823 adis=0.727 link=1.000 tdx=0.862 tloc=0.436 tutil=0.787 n=10000 (24.4s)
+[seed 47] Generalization (k=5)     auc=0.624 mia=0.689 reid=0.000 adis=0.039 link=0.062 tdx=0.899 tloc=0.569 tutil=0.788 n=9359 (17.4s)
+[seed 47] Local DP (eps=1)         auc=0.536 mia=0.504 reid=0.000 adis=0.000 link=0.000 tdx=0.585 tloc=0.454 tutil=0.779 n=10000 (17.5s)
+[seed 47] Local DP (eps=4)         auc=0.658 mia=0.545 reid=0.011 adis=0.000 link=0.005 tdx=0.585 tloc=0.454 tutil=0.779 n=10000 (17.6s)
+[seed 47] Synthetic data (BN)      auc=0.664 mia=0.505 reid=0.000 adis=0.000 link=0.000 tdx=0.585 tloc=0.454 tutil=0.779 n=10000 (17.4s)
+[seed 47] CALE (proposed)          auc=0.624 mia=0.689 reid=0.000 adis=0.039 link=0.062 tdx=0.000 tloc=0.000 tutil=0.772 n=9359 (20.0s)
+[seed 47] CALE-S (proposed)        auc=0.669 mia=0.506 reid=0.000 adis=0.000 link=0.000 tdx=0.000 tloc=0.000 tutil=0.772 n=10000 (19.6s)
+done
+{'seed': 11, 'n_cal': 2500, 'rounds': 3, 'loop_s': 1.5021895280001445, 'round_s': [0.3999218869998913, 0.4488287990002391, 0.37725146399998266], 'apply_s': 0.26172838299999057, 'render_s': 0.04074334400002044, 'peak_mb': 4.392367362976074, 'scrub_len': 32, 'final_adv': np.float64(0.0027522935779816346)}
+{'seed': 11, 'n_cal': 5000, 'rounds': 3, 'loop_s': 2.5639888730001985, 'round_s': [0.6390036400002828, 0.7486049799999819, 0.9107804959999157], 'apply_s': 0.2644162819997291, 'render_s': 0.06739285000003292, 'peak_mb': 7.015073776245117, 'scrub_len': 32, 'final_adv': np.float64(0.009225092250922518)}
+{'seed': 11, 'n_cal': 10000, 'rounds': 3, 'loop_s': 4.819275680999908, 'round_s': [1.3039628780002204, 1.6262590080000336, 1.624645189000148], 'apply_s': 0.2624667679997401, 'render_s': 0.163889091999863, 'peak_mb': 11.806012153625488, 'scrub_len': 32, 'final_adv': np.float64(0.029868025005788397)}
+{'seed': 11, 'n_cal': 20000, 'rounds': 3, 'loop_s': 11.027509053000358, 'round_s': [2.9080952009999237, 3.7565329969997947, 4.078128925999863], 'apply_s': 0.2816335839997919, 'render_s': 0.28595305799990456, 'peak_mb': 21.792505264282227, 'scrub_len': 32, 'final_adv': np.float64(0.03376957232998365)}
+{'seed': 23, 'n_cal': 2500, 'rounds': 4, 'loop_s': 1.6688165440000375, 'round_s': [0.31307321799977217, 0.3274921729998823, 0.3821099379997577, 0.35102711299987277], 'apply_s': 0.2934856000001673, 'render_s': 0.036946322999938275, 'peak_mb': 4.444604873657227, 'scrub_len': 40, 'final_adv': 0}
+{'seed': 23, 'n_cal': 5000, 'rounds': 4, 'loop_s': 3.208521615000336, 'round_s': [0.6077709159999358, 0.7420056689998091, 0.7663103550003143, 0.7879537110002275], 'apply_s': 0.3032088089998979, 'render_s': 0.06969355299997915, 'peak_mb': 6.9413042068481445, 'scrub_len': 40, 'final_adv': 0}
+{'seed': 23, 'n_cal': 10000, 'rounds': 4, 'loop_s': 6.862379201999829, 'round_s': [1.2666365999998561, 1.5250994279999759, 2.041854983000121, 1.7095533159999832], 'apply_s': 0.31765285799974663, 'render_s': 0.1286321389998193, 'peak_mb': 11.812601089477539, 'scrub_len': 40, 'final_adv': 0}
+{'seed': 23, 'n_cal': 20000, 'rounds': 4, 'loop_s': 14.333795337000083, 'round_s': [2.853787513000043, 3.4199136319998615, 3.8062406250001004, 3.933733745000154], 'apply_s': 0.31807451499980743, 'render_s': 0.2914227339997524, 'peak_mb': 21.74273109436035, 'scrub_len': 40, 'final_adv': 0}
+{'seed': 47, 'n_cal': 2500, 'rounds': 3, 'loop_s': 1.329063195999879, 'round_s': [0.2893437239999912, 0.36483969299979435, 0.3905627750000349], 'apply_s': 0.2829230140000618, 'render_s': 0.03916100099968389, 'peak_mb': 4.399127960205078, 'scrub_len': 32, 'final_adv': np.float64(0.01200686106346484)}
+{'seed': 47, 'n_cal': 5000, 'rounds': 3, 'loop_s': 2.3703798239998832, 'round_s': [0.572561720000067, 0.7010196159999396, 0.8244933460000539], 'apply_s': 0.27061759699972754, 'render_s': 0.13446159899967824, 'peak_mb': 6.798770904541016, 'scrub_len': 32, 'final_adv': np.float64(0.04420600858369099)}
+{'seed': 47, 'n_cal': 10000, 'rounds': 4, 'loop_s': 6.28605544400034, 'round_s': [1.248387196999829, 1.4658822199999122, 1.6931224740001198, 1.5581044790001215], 'apply_s': 0.3189702889999353, 'render_s': 0.13294497500010038, 'peak_mb': 11.825486183166504, 'scrub_len': 40, 'final_adv': 0}
+{'seed': 47, 'n_cal': 20000, 'rounds': 4, 'loop_s': 14.650300084000264, 'round_s': [2.7819648520003284, 3.684980228000313, 4.199260331999994, 3.623636816999806], 'apply_s': 0.35834541000031095, 'render_s': 0.2680673989998468, 'peak_mb': 21.7868013381958, 'scrub_len': 40, 'final_adv': 0}
+done
+                      utility_auc  utility_auc_sd  mia_auc   reid  attr_disc  linkability  text_dx_adv  text_loc_adv  text_util      P      U   EPGI  max_threat  released
+method                                                                                                                                                                    
+Raw (no encoding)           0.700           0.004    0.875  1.000      0.807        1.000        1.000         0.764      0.786  0.113  1.000  0.797       1.000   10000.0
+Redaction                   0.700           0.004    0.875  0.833      0.734        0.976        0.589         0.449      0.777  0.278  0.985  0.566       0.976   10000.0
+Partial masking             0.692           0.004    0.867  0.997      0.806        1.000        0.791         0.568      0.786  0.184  0.979  0.690       1.000   10000.0
+Tokenization (vault)        0.700           0.004    0.875  0.833      0.734        1.000        1.000         0.778      0.788  0.151  1.000  0.738       1.000   10000.0
+Keyed hashing (HMAC)        0.700           0.004    0.875  0.833      0.734        1.000        1.000         0.778      0.788  0.151  1.000  0.738       1.000   10000.0
+FPE (FF3-1)                 0.700           0.004    0.875  0.833      0.734        1.000        0.865         0.428      0.785  0.232  1.000  0.624       1.000   10000.0
+Generalization (k=5)        0.631           0.005    0.694  0.000      0.032        0.067        0.900         0.575      0.789  0.673  0.827  0.258       0.900    9381.0
+Local DP (eps=1)            0.538           0.006    0.502  0.000      0.000        0.000        0.589         0.449      0.777  0.826  0.581  0.317       0.589   10000.0
+Local DP (eps=4)            0.661           0.003    0.541  0.012      0.005        0.005        0.589         0.449      0.777  0.810  0.888  0.153       0.589   10000.0
+Synthetic data (BN)         0.666           0.002    0.504  0.000      0.000        0.000        0.589         0.449      0.777  0.826  0.900  0.139       0.589   10000.0
+CALE (proposed)             0.631           0.005    0.694  0.000      0.032        0.067        0.000         0.012      0.770  0.917  0.800  0.146       0.387    9381.0
+CALE-S (proposed)           0.667           0.002    0.504  0.000      0.000        0.000        0.000         0.012      0.770  0.997  0.890  0.059       0.012   10000.0
+CALE scrub: {'11': ['albuterol', 'amlodipine', 'atorvastatin', 'banyan', 'bay', 'calcitriol', 'coral', 'cypress', 'fluoxetine', 'fluticasone', 'glipizide', 'harbor', 'lakeview', 'library', 'lisinopril', 'mall', 'mangrove', 'marina', 'meloxicam', 'metformin', 'naproxen', 'oakmont', 'park', 'pinecrest', 'riverside', 'rosuvastatin', 'salmeterol', 'seagrape', 'sertraline', 'sevelamer', 'stadium', 'tiotropium'], '23': ['albuterol', 'amlodipine', 'atorvastatin', 'banyan', 'calcitriol', 'cypress', 'fluoxetine', 'fluticasone', 'glipizide', 'grove', 'harbor', 'lakeview', 'library', 'lisinopril', 'mall', 'mangrove', 'marina', 'meloxicam', 'metformin', 'naproxen', 'oakmont', 'palm', 'park', 'pinecrest', 'riverside', 'rosuvastatin', 'salmeterol', 'seagrape', 'sertraline', 'sevelamer', 'stadium', 'tiotropium'], '47': ['albuterol', 'amlodipine', 'atorvastatin', 'banyan', 'calcitriol', 'cypress', 'fluoxetine', 'fluticasone', 'glipizide', 'grove', 'harbor', 'lakeview', 'library', 'lisinopril', 'mall', 'mangrove', 'marina', 'meloxicam', 'metformin', 'naproxen', 'oakmont', 'palm', 'park', 'pinecrest', 'riverside', 'rosuvastatin', 'salmeterol', 'seagrape', 'sertraline', 'sevelamer', 'stadium', 'tiotropium']}
+CALE info: {'11': {'hist': [0.5881773399014778, 0.29458128078817736, 0.0179475379659457], 'round_s': [0.5764454599998317, 0.7835170500000004, 0.7974029360000259], 'apply_s': 0.3187545149999096, 'n_cal': 5000}, '23': {'hist': [0.5873170731707317, 0.2629268292682927, 0.04890604890604891], 'round_s': [0.5887563559999762, 0.6883670760000768, 0.7003006459999597], 'apply_s': 0.27334436799992545, 'n_cal': 5000}, '47': {'hist': [0.6021558059774621, 0.27633512983831454, 0], 'round_s': [0.7066727789997458, 0.9002032359999248, 0.8794251520002945], 'apply_s': 0.3160485990001689, 'n_cal': 5000}}
+examples:
+Raw (no encoding) :: Jacob Gonzalez, a 54-year-old graphic designer from ZIP 33641, seen for a routine follow-up visit. Diagnosis: chronic kidney disease (N18.3). He is currently taking sevelamer. Account 2190258237. Labs ordered.
+Redaction :: [PERSON], a [AGE]-year-old graphic designer from ZIP [LOCATION], seen for a routine follow-up visit. Diagnosis: [CONDITION] ([CODE]). He is currently taking sevelamer. Account [ACCOUNT]. Labs ordered.
+Partial masking :: J*** G***, a 54-year-old graphic designer from ZIP 336**, seen for a routine follow-up visit. Diagnosis: [MASKED] (N**.*). He is currently taking sevelamer. Account ******8237. Labs ordered.
+Tokenization (vault) :: P82cd5c, a 54-year-old graphic designer from ZIP Zcb8366, seen for a routine follow-up visit. Diagnosis: Dd9c109 (Cbe0a88). He is currently taking sevelamer. Account A226292. Labs ordered.
+Keyed hashing (HMAC) :: Pc4ca6d93, a 54-year-old graphic designer from ZIP Z5e019e46, seen for a routine follow-up visit. Diagnosis: Dbc0e51b0 (C50f7275b). He is currently taking sevelamer. Account A23468816. Labs ordered.
+FPE (FF3-1) :: Rvvwxw Qrserzho, a 54-year-old graphic designer from ZIP [LOCATION], seen for a routine follow-up visit. Diagnosis: [CONDITION] (JAPAW2). He is currently taking sevelamer. Account 7395059269. Labs ordered.
+Generalization (k=5) :: [PERSON], a 50-59-year-old professional worker from ZIP 336xx, seen for a routine follow-up visit. Diagnosis: genitourinary condition (N-chapter). He is currently taking sevelamer. Account [ACCOUNT]. Labs ordered.
+Local DP (eps=1) :: [PERSON], a [AGE]-year-old graphic designer from ZIP [LOCATION], seen for a routine follow-up visit. Diagnosis: [CONDITION] ([CODE]). He is currently taking sevelamer. Account [ACCOUNT]. Labs ordered.
+Local DP (eps=4) :: [PERSON], a [AGE]-year-old graphic designer from ZIP [LOCATION], seen for a routine follow-up visit. Diagnosis: [CONDITION] ([CODE]). He is currently taking sevelamer. Account [ACCOUNT]. Labs ordered.
+Synthetic data (BN) :: [PERSON], a [AGE]-year-old graphic designer from ZIP [LOCATION], seen for a routine follow-up visit. Diagnosis: [CONDITION] ([CODE]). He is currently taking sevelamer. Account [ACCOUNT]. Labs ordered.
+CALE (proposed) :: [PERSON], a [AGE]-year-old graphic designer from ZIP [LOCATION], seen for a routine follow-up visit. Diagnosis: [CONDITION] ([CODE]). He is currently taking [CUE]. Account [ACCOUNT]. Labs ordered.
+CALE-S (proposed) :: [PERSON], a [AGE]-year-old graphic designer from ZIP [LOCATION], seen for a routine follow-up visit. Diagnosis: [CONDITION] ([CODE]). He is currently taking [CUE]. Account [ACCOUNT]. Labs ordered.
+figs ok
+                      t_struct  t_text  t_scrub  t_eval
+Raw (no encoding)         0.00    0.14     0.00   20.83
+Redaction                 0.00    0.15     0.00   16.89
+Partial masking           0.06    0.15     0.00   18.79
+Tokenization (vault)      0.07    0.23     0.00   19.26
+Keyed hashing (HMAC)      0.08    0.31     0.00   19.35
+FPE (FF3-1)               0.95    0.19     0.00   23.44
+Generalization (k=5)      0.03    0.29     0.00   16.70
+Local DP (eps=1)          0.32    0.14     0.00   16.63
+Local DP (eps=4)          0.13    0.14     0.00   16.54
+Synthetic data (BN)       0.06    0.14     0.00   16.50
+CALE (proposed)           0.10    0.14     2.51   16.99
+CALE-S (proposed)         0.07    0.14     2.47   16.78
+{'11': {'n': 32, 'prec': 1.0, 'med': 1.0, 'land': 0.8, 'rounds': 3, 'loop_s': 2.157365445999858, 'apply_s': 0.3187545149999096, 'hist': [0.5881773399014778, 0.29458128078817736, 0.0179475379659457], 'other': []}, '23': {'n': 32, 'prec': 1.0, 'med': 1.0, 'land': 0.8, 'rounds': 3, 'loop_s': 1.9774240780000127, 'apply_s': 0.27334436799992545, 'hist': [0.5873170731707317, 0.2629268292682927, 0.04890604890604891], 'other': []}, '47': {'n': 32, 'prec': 1.0, 'med': 1.0, 'land': 0.8, 'rounds': 3, 'loop_s': 2.486301166999965, 'apply_s': 0.3160485990001689, 'hist': [0.6021558059774621, 0.27633512983831454, 0], 'other': []}}
+                      Equal  Structured x2  Text x2  Linkage-focused  Membership x3
+method                                                                             
+Raw (no encoding)     0.797          0.798    0.795            0.839          0.743
+Redaction             0.566          0.617    0.507            0.628          0.574
+Partial masking       0.690          0.730    0.643            0.770          0.662
+Tokenization (vault)  0.738          0.726    0.753            0.738          0.701
+Keyed hashing (HMAC)  0.738          0.726    0.753            0.738          0.701
+FPE (FF3-1)           0.624          0.656    0.585            0.668          0.617
+Generalization (k=5)  0.258          0.210    0.325            0.190          0.267
+Local DP (eps=1)      0.317          0.295    0.349            0.295          0.303
+Local DP (eps=4)      0.153          0.118    0.200            0.115          0.138
+Synthetic data (BN)   0.139          0.103    0.188            0.102          0.117
+CALE (proposed)       0.146          0.152    0.137            0.136          0.180
+CALE-S (proposed)     0.059          0.059    0.060            0.059          0.060
+0.9945 0.9945
+11 released: CALE-S (proposed)
+    ('Redaction', False, 0.563, {'max_threat': False, 'epgi': False, 'utility': True})
+    ('Generalization (k=5)', False, 0.251, {'max_threat': False, 'epgi': False, 'utility': True})
+    ('CALE (proposed)', False, 0.133, {'max_threat': False, 'epgi': False, 'utility': True})
+    ('CALE-S (proposed)', True, 0.058, {'max_threat': True, 'epgi': True, 'utility': True})
+23 released: CALE-S (proposed)
+    ('Redaction', False, 0.571, {'max_threat': False, 'epgi': False, 'utility': True})
+    ('Generalization (k=5)', False, 0.26, {'max_threat': False, 'epgi': False, 'utility': True})
+    ('CALE (proposed)', False, 0.153, {'max_threat': False, 'epgi': False, 'utility': False})
+    ('CALE-S (proposed)', True, 0.069, {'max_threat': True, 'epgi': True, 'utility': True})
+47 released: CALE-S (proposed)
+    ('Redaction', False, 0.564, {'max_threat': False, 'epgi': False, 'utility': True})
+    ('Generalization (k=5)', False, 0.261, {'max_threat': False, 'epgi': False, 'utility': True})
+    ('CALE (proposed)', False, 0.151, {'max_threat': False, 'epgi': False, 'utility': False})
+    ('CALE-S (proposed)', True, 0.051, {'max_threat': True, 'epgi': True, 'utility': True})
+ok
+Done. See results/
